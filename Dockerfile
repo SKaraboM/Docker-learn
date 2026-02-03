@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+
 # install deps
 RUN apt-get update && apt-get install -y \
     python3.10 \
@@ -7,8 +8,8 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     git
 
-RUN pip3 install --upgrade pip setuptools wheel && \
-    pip3 install PyYaml
+RUN pip install --upgrade pip setuptools wheel
+RUN pip install PyYaml
 
 COPY feed.py /usr/bin/feed.py
 
