@@ -1,4 +1,4 @@
-name: "Podcast Generator"
+name: "Generate New Podcast Element"
 author: "Solomon Makgoba"
 description: "Create an event from YAML file"
 runs:
