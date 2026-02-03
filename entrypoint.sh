@@ -13,5 +13,5 @@ git add -A && git commit -m 'Update feed'
 
 git push --set-upstream origin main
 
-echo "=========END==============
+echo "=========END=============="
 
