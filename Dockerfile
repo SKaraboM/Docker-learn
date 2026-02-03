@@ -8,8 +8,8 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     git
 
-RUN python -m pip install --upgrade pip setuptools wheel
-RUN python -m pip install PyYaml
+RUN python3 -m pip install --upgrade pip setuptools wheel
+RUN python3 -m pip install PyYaml
 
 COPY feed.py /usr/bin/feed.py
 
